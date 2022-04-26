@@ -376,7 +376,8 @@ body {
   margin-left: 20px;
 }
 
-.wrap-list__min-box {
+.wrapp-list__min-box {
+  padding-top: 28px;
   width: 377px;
 }
 
