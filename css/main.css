@@ -29,19 +29,12 @@
   box-sizing: border-box;
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
 
 body {
   margin: 0;
   font-family: 'Roboto', 'arialable';
+  overflow-x: hidden;
 }
-
-/* img {
-  vertical-align: middle;
-  object-fit: cover;
-} */
 
 .container {
   width: 1380px;
@@ -174,7 +167,7 @@ body {
 
 .site-hero__link:hover {
   background-color: #FFFFFF;
-  border: 1px solid #0A775F;
+  /* border: 1px solid #0A775F; */
   color: #0A775F;
 }
 
