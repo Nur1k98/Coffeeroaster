@@ -81,7 +81,7 @@ body {
   list-style: none;
 }
 
-.nav-list__item {
+.nav__item {
   margin-right: 40px;
 }
 
@@ -89,7 +89,7 @@ body {
   margin-right: 0;
 }
 
-.nav-list__nav-link {
+.nav__link {
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
@@ -99,7 +99,7 @@ body {
   color: #333333;
 }
 
-.nav-list__nav-link:hover {
+.nav__link:hover {
   color: #625f5f;
 }
 
@@ -108,7 +108,7 @@ body {
 /*------------------------------------------------------------- MAIN ------------------------------------------------------*/
 
 /*----------------------------------------------------------- SITE-HERO --------------------------------------------------*/
-.main__site-hero {
+.site-hero {
   position: relative;
   padding: 116px 0 249px;
   background-image: url("../images/img_1.png"), url("../images/background.png");
@@ -119,7 +119,7 @@ body {
   background-position: calc(50% + 405px) bottom, center;
 }
 
-.main__site-hero::before {
+.site-hero::before {
   position: absolute;
   top: -80px;
   left: calc(50% - 40px);
@@ -212,17 +212,15 @@ body {
   content: "";
 }
 
+
 .our-collection__wrapper {
   position: relative;
-  display: inline-block;
-  width: 1400px;
-  background-image: url("../images/background2.png");
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: #F8F8F2;
   padding: 50px 0;
-  text-align: center;
+  background-image: url("../images/background2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: #F8F8F2;
 }
 
 .our-collection__wrapper::before {
@@ -272,7 +270,7 @@ body {
   margin-right: 117px;
 }
 
-.product__img--espresso {
+.espresso {
   margin-right: 0;
   margin-left: 117px;
 }
